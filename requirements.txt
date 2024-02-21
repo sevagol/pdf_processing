@@ -2,5 +2,4 @@ streamlit
 openai
 dm-pix
 langchain
-fitz
 PyMuPDF
