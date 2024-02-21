@@ -1,4 +1,4 @@
 streamlit
 openai
-pix
+dm-pix
 langchain
