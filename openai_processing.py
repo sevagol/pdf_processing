@@ -1,6 +1,7 @@
 from langchain.chat_models import ChatOpenAI
 import json
 from langchain.schema.messages import HumanMessage, SystemMessage
+import streamlit as st
 def image_captioning(img_base64):
     chat = ChatOpenAI(model="gpt-4-vision-preview",
                     max_tokens=3072, api_key=st.secrets.openai_key)
